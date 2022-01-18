@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family:sans-serif;
+    font-weight: 300;
+}
+
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background: black;
+}
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo{
+    font-size: 60px;
+    float:left;
+    padding-top: 10px;
+}
+
+.directory{
+    display: inline;
+    float: right;
+   
+}
+
+nav ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+nav .directory{
+    margin-left: 5%;
+    padding-top: 35px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.image img{
+    width: 100%;
+
+    padding:0px;
+    margin: 0px;
+}
+.flexbox-container{
+    background: white;
+    height: 100em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    /* border: 1px solid red; */
+}
+.flexbox-item{
+    width: 800px;
+    
+    margin: 10px;
+    
+
+}
+.flexbox-item-1{
+    min-height: 30px;
+    background-color: lightgrey;
+    border:1px solid black ;
+
+}
+.date{
+    margin: 10px;
+}
+
+.flexbox-item-2{
+    min-height: 250px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.flexbox-item-3{
+    border:1px solid lightgrey;
+}
+.ray{
+    width: 31%;
+    float: left;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(235,182,37);
+    color: white;
+    font-size: large;
+    border-radius: 50%;
+
+}
+.flexbox-item-4{
+    min-height: 250px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.flexbox-item-5{
+    border:1px solid lightgrey;
+}
+.flexbox-item-6{
+    min-height: 250px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.flexbox-item-7{
+    border:1px solid lightgrey;
+}
+.flexbox-item-8{
+    min-height: 250px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.flexbox-item-9{
+    border:1px solid lightgrey;
+}
+footer{
+    background-color: black;
+    height: 300px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+
+}
+
+.foot {
+    color: white;
+    text-align: left;
+    
+}
+
+.fl li{
+    list-style: none;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.fl{
+    text-align: center;
+    left: -30px;
+    justify-content: center;
+}
+
+.map{
+    justify-content: center;
+    padding-top: 1.5em;
+    width: 380px;
+}
+
+.lion{
+    width: 31%;
+    float: left;
+    margin-top: 25px;
+}
+
+.fame{
+    width: 31%;
+    float: left;
+    margin-top: 25px;
+
+}
+
+.purple{
+    width: 31%;
+    float: left;
+    margin-top: 10px;
+}
+
+.phone{
+    margin-top: -1em ;
+    
+}
